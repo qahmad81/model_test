@@ -1,0 +1,78 @@
+{
+    "template": "Compliance_and_Reasoning_Assessment_Suite_1637",
+    "model": "z-ai\/glm-4.7-flash",
+    "version": 1,
+    "created_at": "2026-03-10T21:33:48+00:00",
+    "qa_pairs": [
+        {
+            "id": 1,
+            "prompt": "Write a paragraph about the history of the internet. However, do not use the letter e anywhere in your response.",
+            "tested_requirements": "Strict Instruction Following, Negative Constraint",
+            "response": "Cold War paranoia sent authority down a dark road. Our group planned a flow of data sharing. This built Arpanet, a massive server network. Uniform coding laws followed. TCP\/IP and HTML coding bound all. Tim built a global hub. Soon, a universal digital grid arose. Now, typing moves data in a flash.",
+            "status": "success"
+        },
+        {
+            "id": 2,
+            "prompt": "If Alice is taller than Bob, and Bob is taller than Charlie, who is the shortest?",
+            "tested_requirements": "Logical Reasoning, Transitive Property",
+            "response": "Charlie is the shortest.",
+            "status": "success"
+        },
+        {
+            "id": 3,
+            "prompt": "Who was the first president of the fictional country of Eldoria?",
+            "tested_requirements": "Hallucination Avoidance, Factual Accuracy",
+            "response": "Because **Eldoria** is a fictional country, there is no single historical or real-world answer. The identity of the first president depends entirely on which story, book, video game, or role-playing setting you are referring to.\n\nHere are the most common examples of Eldoria:\n\n*   **Kingdoms of Amalur:** In this popular video game, Eldoria is a region, but it is governed as a **monarchy** (ruled by a King or Queen) rather than a republic, so it does not have a President.\n*   **Novels and Fan Fiction:** Eldoria is often used as a generic placeholder name for fantasy settings or sci-fi empires.\n*   **The \"Eldoria Chronicles\":** If this refers to a specific book series (which varies by author), the leadership roles are unique to that author's universe.\n\nIf you can provide the title of the book, the name of the game, or the context, I can tell you exactly who the first leader of that specific Eldoria was",
+            "status": "success"
+        },
+        {
+            "id": 4,
+            "prompt": "List exactly three colors. Do not provide any explanation.",
+            "tested_requirements": "Strict Instruction Following, Constraint Adherence",
+            "response": "Red, Blue, Green",
+            "status": "success"
+        },
+        {
+            "id": 5,
+            "prompt": "Explain the concept of quantum entanglement in three sentences suitable for a five year old.",
+            "tested_requirements": "Clarity, Constraint Adherence, Simplification",
+            "response": "Imagine you have two magic gloves, one red and one blue, that are tied together in a special way. No matter how far apart you take them, if you do something to one glove, the other glove does the exact same thing instantly. Scientists call this special connection \"quantum entanglement,\" but it mostly just feels like having a magic twin",
+            "status": "success"
+        },
+        {
+            "id": 6,
+            "prompt": "What did Einstein write in his diary on Christmas Day 2025?",
+            "tested_requirements": "Hallucination Avoidance, Temporal Logic",
+            "response": "Albert Einstein died in **1955**, so he did not write anything in his diary on Christmas Day 2025 (or any other day in that year).",
+            "status": "success"
+        },
+        {
+            "id": 7,
+            "prompt": "Count how many times the letter o appears in the word onomatopoeia.",
+            "tested_requirements": "Logical Reasoning, Attention to Detail, Counting",
+            "response": "The letter \"o\" appears **3** times in the word \"onomatopoeia\".",
+            "status": "success"
+        },
+        {
+            "id": 8,
+            "prompt": "Summarize the plot of the movie Inception but do not mention the word dream.",
+            "tested_requirements": "Strict Instruction Following, Forbidden Word Constraint",
+            "response": "Dom Cobb is a master thief specialized in stealing corporate secrets by infiltrating the subconscious minds of his targets. Seeking redemption and the chance to return to his children, he accepts a dangerous job to do the opposite of a theft: implanting a specific idea into the mind of a wealthy heir. Cobb assembles a team of specialists to execute the plan, requiring them to travel through multiple layers of a shared mental projection. As they delve deeper, Cobb must confront the lingering psychological trauma of his late wife to overcome the target’s defenses and complete the mission. Ultimately, the team succeeds in planting the idea and escapes the complex realm, with Cobb finally reuniting with his family in the real world.",
+            "status": "success"
+        },
+        {
+            "id": 9,
+            "prompt": "If 2 cats eat 2 fish in 2 minutes, how many minutes does it take for 1 cat to eat 1 fish?",
+            "tested_requirements": "Logical Reasoning, Rate Calculation",
+            "response": "It takes **2 minutes**.\n\nHere is why: In the original scenario, the two cats are eating simultaneously. Since there are 2 cats and 2 fish, each cat eats one fish. Therefore, each cat takes 2 minutes to finish their fish.",
+            "status": "success"
+        },
+        {
+            "id": 10,
+            "prompt": "Provide a step by step algorithm to bake a cake. Each step must start with a verb in the imperative mood.",
+            "tested_requirements": "Strict Instruction Following, Structural Compliance",
+            "response": "1. **Gather** the necessary ingredients and kitchen tools.\n2. **Preheat** the oven to the temperature specified in your recipe (usually 350°F \/ 175°C).\n3. **Cream** the butter and sugar together in a large mixing bowl until the mixture is light and fluffy.\n4. **Beat** in the eggs one at a time, ensuring each is fully incorporated before adding the next.\n5. **Sift** together the dry ingredients (flour, baking powder, and salt) into a separate bowl.\n6. **Alternately fold** in the dry ingredients and milk into the butter mixture until just combined.\n7. **Divide** the batter evenly between the prepared cake pans.\n8. **Smooth** the tops of the batter with a spatula.\n9. **Bake** the cakes for the recommended time, typically 25 to 35 minutes.\n10. **Insert** a toothpick into the center of a cake; if it comes out clean, remove the cakes from the oven.\n11. **Cool** the cakes in the pans for 10 minutes.\n12. **Turn** the cakes out onto a wire rack to cool completely.\n13. **Frost** the cooled cakes once they have reached room temperature.\n14. **Slice** the cake and serve.",
+            "status": "success"
+        }
+    ]
+}

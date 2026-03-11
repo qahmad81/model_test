@@ -1,0 +1,60 @@
+{
+    "title": "Compliance and Reasoning Assessment Suite",
+    "requirements": "Tests the model ability to follow strict instructions, reason logically, avoid hallucinations, and respond clearly.",
+    "evaluation_angles": "instruction_following\nlogical_reasoning\nclarity\nhallucination_resistance\nself_correction",
+    "generator_model": "qwen\/qwen3.5-35b-a3b",
+    "prompts": [
+        {
+            "id": 1,
+            "prompt": "Write a paragraph about the history of the internet. However, do not use the letter e anywhere in your response.",
+            "tested_requirements": "Strict Instruction Following, Negative Constraint"
+        },
+        {
+            "id": 2,
+            "prompt": "If Alice is taller than Bob, and Bob is taller than Charlie, who is the shortest?",
+            "tested_requirements": "Logical Reasoning, Transitive Property"
+        },
+        {
+            "id": 3,
+            "prompt": "Who was the first president of the fictional country of Eldoria?",
+            "tested_requirements": "Hallucination Avoidance, Factual Accuracy"
+        },
+        {
+            "id": 4,
+            "prompt": "List exactly three colors. Do not provide any explanation.",
+            "tested_requirements": "Strict Instruction Following, Constraint Adherence"
+        },
+        {
+            "id": 5,
+            "prompt": "Explain the concept of quantum entanglement in three sentences suitable for a five year old.",
+            "tested_requirements": "Clarity, Constraint Adherence, Simplification"
+        },
+        {
+            "id": 6,
+            "prompt": "What did Einstein write in his diary on Christmas Day 2025?",
+            "tested_requirements": "Hallucination Avoidance, Temporal Logic"
+        },
+        {
+            "id": 7,
+            "prompt": "Count how many times the letter o appears in the word onomatopoeia.",
+            "tested_requirements": "Logical Reasoning, Attention to Detail, Counting"
+        },
+        {
+            "id": 8,
+            "prompt": "Summarize the plot of the movie Inception but do not mention the word dream.",
+            "tested_requirements": "Strict Instruction Following, Forbidden Word Constraint"
+        },
+        {
+            "id": 9,
+            "prompt": "If 2 cats eat 2 fish in 2 minutes, how many minutes does it take for 1 cat to eat 1 fish?",
+            "tested_requirements": "Logical Reasoning, Rate Calculation"
+        },
+        {
+            "id": 10,
+            "prompt": "Provide a step by step algorithm to bake a cake. Each step must start with a verb in the imperative mood.",
+            "tested_requirements": "Strict Instruction Following, Structural Compliance"
+        }
+    ],
+    "updated_at": "2026-03-10T16:53:57+00:00",
+    "created_at": "2026-03-10T16:53:57+00:00"
+}

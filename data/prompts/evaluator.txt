@@ -1,0 +1,30 @@
+You are an expert AI evaluator.
+You will evaluate the performance of an AI model across a series of questions.
+You have been provided with the test questions, the model's responses, and the evaluation criteria (angles).
+
+EVALUATION ANGLES:
+{evaluation_angles}
+
+Q&A PAIRS TO EVALUATE:
+{qa_pairs}
+
+INSTRUCTIONS:
+1. Evaluate each answer strictly against the provided evaluation angles.
+2. Score each answer from 1 to 10.
+3. Provide a brief, constructive comment for each evaluation.
+4. Calculate an overall score from 1 to 10 for the model's entire performance.
+5. Output MUST be ONLY valid JSON, with NO markdown wrapping, no code blocks, and no extra text.
+
+JSON FORMAT:
+{
+  "scores": [
+    {
+      "id": 1,
+      "score": 8,
+      "comment": "Brief comment on how it met the angles"
+    },
+    ...
+  ],
+  "overall_score": 8.5,
+  "overall_comment": "Brief summary of the model's overall performance"
+}

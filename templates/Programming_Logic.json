@@ -1,0 +1,60 @@
+{
+    "title": "Programming Logic and Code Discipline Assessment",
+    "requirements": "Tests the model ability to write correct code, follow programming constraints, reason about algorithms, debug errors, and produce clear structured solutions.",
+    "evaluation_angles": "code_correctness\nalgorithmic_reasoning\ninstruction_following\nedge_case_awareness\nclarity_of_solution",
+    "generator_model": "qwen/qwen3.5-35b-a3b",
+    "prompts": [
+        {
+            "id": 1,
+            "prompt": "Write a Python function that returns the largest number in a list. Do not use the built in max function.",
+            "tested_requirements": "Algorithmic Reasoning, Constraint Adherence"
+        },
+        {
+            "id": 2,
+            "prompt": "Explain what is wrong in this Python code and provide a corrected version:\n\nfor i in range(5)\n    print(i)",
+            "tested_requirements": "Debugging Ability, Syntax Awareness"
+        },
+        {
+            "id": 3,
+            "prompt": "Write a JavaScript function that checks if a word is a palindrome. The function must ignore spaces and letter case.",
+            "tested_requirements": "Algorithmic Reasoning, Edge Case Handling"
+        },
+        {
+            "id": 4,
+            "prompt": "Given the following array in Python: [4, 1, 7, 3, 9, 2], write code to sort it in ascending order without using the built in sort method.",
+            "tested_requirements": "Algorithmic Thinking, Implementation Skill"
+        },
+        {
+            "id": 5,
+            "prompt": "What is the time complexity of binary search? Explain briefly in two sentences.",
+            "tested_requirements": "Computer Science Knowledge, Clarity"
+        },
+        {
+            "id": 6,
+            "prompt": "Write a SQL query that returns the names of users older than 30 from a table called users with columns id, name, and age.",
+            "tested_requirements": "Database Query Knowledge"
+        },
+        {
+            "id": 7,
+            "prompt": "Rewrite the following Python code using a list comprehension:\n\nresult = []\nfor i in range(10):\n    result.append(i * 2)",
+            "tested_requirements": "Code Transformation, Python Knowledge"
+        },
+        {
+            "id": 8,
+            "prompt": "Explain what a race condition is in concurrent programming in one short paragraph.",
+            "tested_requirements": "Systems Knowledge, Clarity"
+        },
+        {
+            "id": 9,
+            "prompt": "Write a function in pseudocode that counts how many times a specific word appears in a text.",
+            "tested_requirements": "Algorithm Design, Structured Thinking"
+        },
+        {
+            "id": 10,
+            "prompt": "A program crashes when the input list is empty. Explain why this might happen and how to fix it in general programming terms.",
+            "tested_requirements": "Edge Case Awareness, Debugging Reasoning"
+        }
+    ],
+    "updated_at": "2026-03-10T18:00:00+00:00",
+    "created_at": "2026-03-10T18:00:00+00:00"
+}
